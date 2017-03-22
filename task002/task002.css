@@ -1,0 +1,99 @@
+<!--IFE xiaowei college task002 css>
+body
+{
+	font-family:"Microsoft Yahei",sans-serif;
+	line-height:150%;
+}
+header
+{
+	background-color:#222;
+	height:50px;
+	line-height:50px;
+	margin-bottom:20px;
+}
+#logo
+{
+	float:left;
+}
+nav ul
+{
+	display:inline;
+	margin:0;
+	padding:0;
+	float:right;
+  
+}
+nav li
+{
+	list-style:disc;
+	display:inline;
+	margin-right:8px;
+}
+nav li a
+{
+	text-decoration:none;
+	color:#fff;
+}
+article,aside
+{
+	padding:20px;
+	border:1px solid #ccc;
+	width:800px;
+	margin:20px auto;
+}
+aside>h2
+{
+	border-left:2px solid #ccc;
+	padding-left:10px;
+}
+#book
+{
+	border-collapse: collapse;
+	empty-cells:hide;
+	border:1px solid #ccc;
+}
+#book>thead th
+{
+	background-color:#000;
+	font-weight:bold;
+	text-align:left;
+	color:#fff;
+}
+#book>tfoot td
+{
+	background-color:#ccc;
+	font-weight:bold;
+	text-align:left;
+	color:#000;
+}
+#book th,#book td
+{
+	border:1px solid #ccc;
+}
+.smallpicture
+{
+	border-collapse: collapse;
+	text-align:center;
+	border:1px solid #ccc;
+	margin-bottom:10px;
+}
+
+
+#user
+{
+	float:left;
+}
+#submit,#reset
+{
+	display:block;
+	width:800px;
+	border-radius:5px;
+	background-color:#59f;
+}
+footer
+{
+
+	background-color:#000;
+	color:white;
+	text-align:center;
+}
