@@ -1,8 +1,14 @@
 <!--IFE xiaowei college task002 css>
+*
+{
+	padding:0;
+	margin:0;
+	line-height:150%;
+	font-family:"Microsoft Yahei",sans-serif;
+}
 body
 {
-	font-family:"Microsoft Yahei",sans-serif;
-	line-height:150%;
+	background-color:#ccc;
 }
 header
 {
@@ -10,6 +16,7 @@ header
 	height:50px;
 	line-height:50px;
 	margin-bottom:20px;
+	width:100%;
 }
 #logo
 {
@@ -38,8 +45,8 @@ article,aside
 {
 	padding:20px;
 	border:1px solid #ccc;
-	width:800px;
-	margin:20px auto;
+	margin:20px;
+	background-color:#fff;
 }
 aside>h2
 {
@@ -51,6 +58,7 @@ aside>h2
 	border-collapse: collapse;
 	empty-cells:hide;
 	border:1px solid #ccc;
+	width:100%;
 }
 #book>thead th
 {
@@ -78,7 +86,20 @@ aside>h2
 	margin-bottom:10px;
 }
 
-
+#form
+{
+	line-height:200%;
+}
+#form label
+{
+	display:inline-block;
+	width:45%;
+	text-align:right;
+}
+#form span
+{
+	margin-left:45%;
+}
 #user
 {
 	float:left;
@@ -86,7 +107,7 @@ aside>h2
 #submit,#reset
 {
 	display:block;
-	width:800px;
+	width:100%;
 	border-radius:5px;
 	background-color:#59f;
 }
